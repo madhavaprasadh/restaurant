@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+.landing{
+    background-image: url('../bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder ;
+    min-width: 120px;
+}
+.landing{
+    color:white;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#one{
+    flex:3;
+    font-size: 3em;
+    padding: 0.5rem;
+    min-width: 350px;
+}
+nav{
+    flex: 2;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+nav a{
+   flex: 1; 
+}
+nav a:hover{
+    color:beige;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tag1{
+    color: darkred;
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px black;
+}
+.main div{
+    margin-top: 1em;
+}
+.main button{
+    width: 8vw;
+    margin-top: 2em;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right,white,gold);
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+}
+#menuhead,#locheading{
+    color: crimson;
+    display: flex;
+    background: linear-gradient(to right,white,gold);
+    font-size: 2em;
+    margin: 0;
+    justify-content: center;   
+}
+#locheading{
+    justify-content: flex-start;
+    margin-left: 1em;
+}
+.menu th{
+    color: darkblue;
+    font-size: 1.8em;
+}
+table{
+    width:100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    margin-top: 0.5em;
+    justify-content: center;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span 2;
+}
+.location{
+    background: linear-gradient(to right,white,gold);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.location h2{
+    color: darkblue;
+    margin-bottom: 0.8em;
+}
+.location div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px; 
+}
+header i{
+     margin-right: 0.5em;
+     color:gold;
+}
+footer{
+    background-color: grey;
+}
+.symbols{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.25em;
+    font-size: 2em;
+}
+.facebook:hover{
+    transform:scaleY(1.5);
+}
+.twitter:hover{
+    transform:scaleY(1.5);
+}
+.youtube:hover{
+    transform:scaleY(1.5);
+}
+
+
+
+
